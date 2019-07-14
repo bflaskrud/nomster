@@ -3,9 +3,9 @@
 
 
 @font-face {
-    font-family: 'chunkfiveroman';
-    src: font_url('chunkfive-regular-webfont.woff2') format('woff2'),
-         font_url('chunkfive-regular-webfont.woff') format('woff');
+    font-family: 'chunkfiveregular';
+    src: url('chunkfive-regular-webfont.woff2') format('woff2'),
+         url('chunkfive-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
