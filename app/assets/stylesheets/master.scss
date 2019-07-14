@@ -32,3 +32,47 @@ body {
    font-family: 'chunkfiveregular' sans-serif;
    font-size: 26px;
 }
+
+.pagination {
+  background: white;
+  cursor: default;
+  height: 22px;
+  a, span, em {
+    padding: 0.2em 0.5em;
+    display: block;
+    float: left;
+    margin-right: 1px;
+  }
+  .disabled {
+    display: none;
+  }
+  .current {
+    font-style: normal;
+    font-weight: bold;
+    background: white;
+    color: 2a2a2a;
+    border: 1px solid #2a2a2a;
+  }
+  a {
+    text-decoration: 2a2a2a;
+    color: #2a2a2a;
+    border: 1px solid #2a2a2a;
+    &:hover, &:focus {
+      color: #2a2a2a;
+      border-color: #2a2a2a;
+    }
+  }
+  .page_info {
+    background: #2a2a2a;
+    color: white;
+    padding: 0.4em 0.6em;
+    width: 22em;
+    margin-bottom: 0.3em;
+    text-align: center;
+    b {
+      color: #000033;
+      background: #2a2a2a + 60;
+      padding: 0.1em 0.25em;
+    }
+  }
+}
