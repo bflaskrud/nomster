@@ -1,6 +1,6 @@
 class PlacesController < ApplicationController
 
   def index
-    @products = Product.search(params[:search], params[:page])
-end
+  @places = Place.order("name").page(params[:page]).per_page(10)
+  end
 end

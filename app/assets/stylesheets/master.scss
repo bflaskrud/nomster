@@ -49,21 +49,21 @@ body {
   .current {
     font-style: normal;
     font-weight: bold;
-    background: white;
+    background: #white;
     color: 2a2a2a;
     border: 1px solid #2a2a2a;
   }
   a {
-    text-decoration: 2a2a2a;
+    text-decoration: none;
     color: #2a2a2a;
     border: 1px solid #2a2a2a;
     &:hover, &:focus {
-      color: #2a2a2a;
-      border-color: #2a2a2a;
+      color: #000033;
+      border-color: #000033;
     }
   }
   .page_info {
-    background: #2a2a2a;
+    background: #2e6ab1;
     color: white;
     padding: 0.4em 0.6em;
     width: 22em;
@@ -71,7 +71,7 @@ body {
     text-align: center;
     b {
       color: #000033;
-      background: #2a2a2a + 60;
+      background: #2e6ab1 + 60;
       padding: 0.1em 0.25em;
     }
   }
